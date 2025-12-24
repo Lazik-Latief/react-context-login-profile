@@ -7,11 +7,10 @@ import Profile from './components/Profile'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState([])
 
   return (
     <UserContextProvider>
-      <h2>Profile</h2>
       <Login />
       <Profile />
     </UserContextProvider>
@@ -19,3 +18,5 @@ function App() {
 }
 
 export default App
+
+
