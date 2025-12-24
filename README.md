@@ -103,7 +103,6 @@ Login sends data → UserContextProvider
 UserContextProvider stores data in user state
 Profile reads data → Displays on UI
 
-
 ---
 
 ##  Key Concepts Learned
@@ -112,19 +111,16 @@ Profile reads data → Displays on UI
 - `Login` updates the data
 - `Profile` reads the data
 - No props are passed between components
-
 ---
 
 ##  Why Context API?
 - Avoids prop drilling
 - Cleaner and more maintainable code
 - Useful for authentication, themes, language, cart data, etc.
-
 ---
 
 ##  Conclusion
 This project helped me understand how React Context API works internally by sharing data between components in a simple login and profile example. It is a foundational project for learning advanced state management in React.
-
 ---
 
 ##  Future Improvements
@@ -132,7 +128,6 @@ This project helped me understand how React Context API works internally by shar
 - Add logout functionality
 - Improve form validation
 - Convert to real authentication flow
-
 ---
 
 ## ✨ Author
